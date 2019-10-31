@@ -1,3 +1,10 @@
+# 4)
+# b) Erwartungswert der Fehlerterme 1, Fehler groesser als 0
+#    Oft zur Schaetzung benutzt: ln => E(ln(u)) = 0
+#    (Siehe auch Jensensche Ungleichung)
+#
+# c) Zu 1 multiplizieren, geometrisches Mittel sollte 1 sein
+
 data <- read.table('Aufgabe05.txt', header = TRUE)
 timeseries <- ts(data)
 
